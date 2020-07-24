@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    margin: 0;
+    padding: 0;
+    background: red;
+    height: 100vh;
+}
+
+h1  {
+    margin: 0;
+}
