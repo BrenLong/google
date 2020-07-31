@@ -8,7 +8,7 @@ body {
     background: transparent;
     height: 100vh;
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
 }
 
 header {
@@ -71,7 +71,7 @@ nav li a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1 0 auto; /* flex-grow, flex-shrink, flex-basis */ 
+    flex: 1 0 auto; /* flex-grow, flex-shrink, flex-basis */
 }
 
 #googleimg {
