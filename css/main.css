@@ -7,13 +7,18 @@ body {
 #container {
     background: transparent;
     height: 100vh;
-    display: grid;
-    grid-template-rows: 96px 17fr 1fr;
+    display: flex;
+    flex-direction: column;;
+}
+
+header {
+    height: 50px;
+    flex-shrink: 0;
+    background-color: green;
 }
 
 nav {
-    background: white;
-    grid-row: 1 / 2;
+    background: transparent;
 }
 
 nav ul {
@@ -21,7 +26,7 @@ nav ul {
     margin: 0;
     padding: 0 25px 50px 0;
     overflow: hidden;
-    background-color: white;
+    background-color: transparent;
     float: right;
     display: flex;
 }
@@ -61,12 +66,12 @@ nav li a:hover {
     align-self: center;
 }
 
-#search {
+#main {
     background: white;
-    grid-row: 2 / 3;
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1 0 auto; /* flex-grow, flex-shrink, flex-basis */ 
 }
 
 #googleimg {
@@ -143,5 +148,6 @@ p {
 
 footer {
     background: green;
-    grid-row: 3 / 4;
+    height: 50px;
+    flex-shrink: 0;
 }
