@@ -11,7 +11,7 @@
     </head>
 
     <body>
-        <!-- ALL PAGE ELEMENTS -->
+        <!-- NAVBAR & MAIN -->
         <div id="container">
 
             <!-- NAVBAR -->
@@ -33,56 +33,72 @@
             <!-- MAIN CONTENT -->
             <div id="main">
 
-                <div id="wrapper">
 
-                    <!-- Google logo -->
-                    <div id="google">
-                        <a href="#"><img id="googleimg" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></a>
-                    </div>
-                    <!-- google -->
+                <!-- Google logo -->
+                <div id="google">
+                    <a href="#"><img id="googleimg" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"></a>
+                </div>
+                <!-- google -->
 
-                    <!-- Search box -->
-                    <div id="form">
-                        <!-- Search box and magnifying glass svg should likely not be siblings -->
-                        <svg id="magglass" class="gray" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <!-- Search box -->
+                <div id="form">
+                    <!-- Search box and magnifying glass svg should likely not be siblings -->
+                    <svg id="magglass" class="gray" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                     <path
                         d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z">
                     </path></svg>
 
-                        <form>
-                            <label for "form-search"></label>
-                            <input type="text" id="form-search" name="form-search">
-                        </form>
-                    </div>
-                    <!-- / form -->
-
-                    <!-- not sure if buttons can be outside the form element like this , it was done this way purely as a positioning exercise -->
-                    <div id="buttons">
-
-                        <form>
-                            <button class="movebutton" type="submit" formaction="#">Google Search</button>
-                            <button class="movebutton" type="submit" formaction="#">I'm Feeling Lucky</button>
-                        </form>
-
-                    </div>
-                    <!-- / buttons -->
-
-                    <div id="language">
-                        <p>Google offered in: <a href="#">Gaeilge</a></p>
-                    </div>
-                    <!-- / language -->
+                    <form>
+                        <label for "form-search"></label>
+                        <input type="text" id="form-search" name="form-search">
+                    </form>
                 </div>
-                <!-- / wrapper -->
+                <!-- / form -->
+
+                <!-- not sure if buttons can be outside the form element like this , it was done this way purely as a positioning exercise -->
+                <div id="buttons">
+
+                    <form>
+                        <button class="movebutton" type="submit" formaction="#">Google Search</button>
+                        <button class="movebutton" type="submit" formaction="#">I'm Feeling Lucky</button>
+                    </form>
+
+                </div>
+                <!-- / buttons -->
+
+                <div id="language">
+                    <p>Google offered in: <a href="#">Gaeilge</a></p>
+                </div>
+                <!-- / language -->
+
             </div>
             <!-- / main -->
         </div>
         <!-- container -->
 
+        <!-- PRE-FOOTER -->
+        <div id="pre-footer">
+            <ul class="left">
+                <li><a href="#">Ireland</a></li>
+            </ul>
+        </div>
+        <!-- / pre-footer-->
+
         <!-- FOOTER -->
         <footer>
-
+            <ul class="left">
+                <li><a href="#">Advertising</a></li>
+                <li><a href="#">Business</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">How Search works</a></li>
+            </ul>
+            <ul class="right">
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
         </footer>
-        </div>
+        <!-- / footer -->
     </body>
 
 </html>
